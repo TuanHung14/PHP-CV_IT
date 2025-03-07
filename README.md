@@ -4,8 +4,8 @@
 
 1. Clone repository:
     ```sh
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone <https://github.com/TuanHung14/PHP-CV_IT.git>
+    cd <https://github.com/TuanHung14/PHP-CV_IT.git>
     ```
 
 2. Cài đặt các phụ thuộc:
