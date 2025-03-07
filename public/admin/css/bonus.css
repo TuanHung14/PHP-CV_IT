@@ -1,0 +1,156 @@
+.image-upload-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ddd;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .custom-pagination {
+    background-color: transparent !important; 
+  }
+  
+  .custom-pagination .page-link {
+    color: white !important; 
+    background-color: transparent !important; 
+  }
+  
+  .custom-pagination .page-link:hover {
+    color: black !important; 
+    background-color: white !important;
+  }
+  
+  .custom-pagination .page-item.active .page-link {
+    background-color: white !important; 
+    color: black !important; 
+    border: 1px solid #ddd !important;
+  }
+  .note-editor .note-editable {
+    background-color: #fff;
+    color: black; /* Chữ trắng */
+    border: 1px solid #444; /* Viền */
+  }
+  .page-body-wrapper{
+    min-height: 100vh !important;
+  }
+
+/* option select  */
+.select-container {
+  position: relative;
+}
+
+.selected-tags {
+  min-height: 38px;
+  padding: 4px 8px;
+  background: #2a3038;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  user-select: none;
+}
+
+.tag.blue {
+  background: #007bff;
+}
+
+.tag.green {
+  background: #28a745;
+}
+
+.tag .remove {
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #1e1e1e;
+  border-radius: 4px;
+  margin-top: 4px;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.select-options.show {
+  display: block;
+}
+
+.option {
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.option:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.option.selected {
+  background: rgba(0, 123, 255, 0.2);
+}
+
+.note-editor {
+  font-family: 'Roboto', 'Arial', sans-serif !important;
+}
+
+/* message */
+.message {
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  padding: 15px 25px;
+  border-radius: 4px;
+  z-index: 100000000;
+  animation: slideIn 0.5s ease-in-out;
+  display: none;
+}
+
+.success {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.error {
+  background-color: #f44336;
+  color: white;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
+  

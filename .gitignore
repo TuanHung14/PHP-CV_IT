@@ -1,6 +1,7 @@
 /vendor
 /node_modules
 /config/db.php
+/config/jwt.php
 .env
 .vscode
 .DS_Store

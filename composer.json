@@ -1,0 +1,17 @@
+{
+    "name": "tuanhung02/topcv-php",
+    "description": "web tìm việc làm",
+    "authors": [
+        {
+            "name": "Tuan Hung",
+            "email": "vhung5912@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+
+}
