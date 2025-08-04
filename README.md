@@ -31,3 +31,6 @@
     ```
 
 7. Truy cập ứng dụng tại `http://localhost:8000`.
+
+Tài khoản: vhung5912@gmail.com
+Password:123456
